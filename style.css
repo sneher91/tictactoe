@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+
+#container {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.box {
+    border: 0.5px solid slateblue;
+    padding: 15%;
+    align-content: center;
+    text-align: center;
+
+}
+
+  header {
+    color: orange;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+
+}
+  
+  #player-turn {
+      color: yellowgreen;
+      text-align: center;
+      font-size: 20px;
+}
+      
+#reset {
+margin: 5%;
+}
