@@ -103,8 +103,10 @@ function winCheck() {
 //.some() goes through each element in the array and its taking each the index values for each 
 //and checking to see if the values return a truth statement.
     let checkCombos = winningCombos.some(function (combination) {
-            Math.abs(board[combination[0]] + board[combination[1]] + board[combination[2]]) === 3
+           if( Math.abs(board[combination[0]] + board[combination[1]] + board[combination[2]]) === 3)
+            return true;
        });
+       //if true, the winner variable is updated from the turn.
     if (checkCombos === true) winner = turn;
     
 }
